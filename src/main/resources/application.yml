@@ -1,0 +1,14 @@
+guru:
+  jms:
+    username: JMS Username
+    password: somepass
+    url: someurl
+
+---
+##the above represents a file separator
+spring:
+  profiles: de
+guru:
+  jms:
+    username: JMS Username $$$$ GERMAN
+
